@@ -1,0 +1,39 @@
+1.  Crie um Crie um algoritmo que leia o raio de uma circunferência e calcule
+    seu perímetro (2 _ π _ raio) e sua área (π \* raio²). Considere π = 3.14159.
+
+2.  Elabore um programa que leia a largura e o comprimento de um terreno
+    retangular e calcule sua área em metros quadrados e em hectares (1
+    hectare = 10.000 m²).
+
+3.  Desenvolva um algoritmo que leia o peso de uma pessoa em quilogramas
+    e apresente esse peso convertido para libras. Considere que 1 kg =
+    2.20462 libras.
+
+4.  Crie um programa que leia o valor de um produto e calcule seu preço com
+    25% de desconto. Mostre tanto o valor do desconto quanto o preço final.
+
+5.  Faça um algoritmo que leia a quantidade de megabytes (MB) de um
+    arquivo e a velocidade de uma conexão de Internet em megabits por
+    segundo (Mbps). Calcule e mostre o tempo aproximado de download do
+    arquivo em minutos. Considere que 1 byte = 8 bits.
+
+6.  Escreva um programa que leia o valor do lado de um cubo e calcule seu
+    volume (lado³) e sua área superficial (6 \* lado²).
+
+7.  Crie um algoritmo que leia o valor de um depósito e a taxa de juros
+    mensal. Calcule e mostre o valor do rendimento e o valor total após o
+    rendimento para um mês.
+
+8.  Desenvolva um programa que leia a distância entre duas cidades em
+    quilômetros e a velocidade média de um veículo. Calcule e mostre o
+    tempo estimado da viagem em horas e minutos.
+
+9.  Cálculo do Tempo de Viagem: Crie um algoritmo que leia a distância de
+    uma viagem em quilômetros e a velocidade média do veículo, e calcule o
+    tempo estimado de viagem em horas. A fórmula é:
+    $$
+    𝑡𝑒𝑚𝑝𝑜 = 𝑑𝑖𝑠𝑡â𝑛𝑐𝑖𝑎 / 𝑣𝑒𝑙𝑜𝑐𝑖𝑑𝑎𝑑𝑒
+    $$
+10. Faça um programa que leia as três dimensões de uma caixa retangular
+    (comprimento, largura e altura) e calcule seu volume e a área total de sua
+    superfície.
