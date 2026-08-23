@@ -1,16 +1,35 @@
-# This is a sample Python script.
+import pygame
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from Personagem import Personagem
 
+pygame.init()
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+window_width = 500
+window_height = 500
+window = pygame.display.set_mode((window_width, window_height))
 
+pygame.display.set_caption("Jogo teste 1")
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+personagem = Personagem()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+rodar = True
+while rodar:
+    pygame.time.delay(50)  # delay ao iniciar
+
+    # eventos
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            rodar = False
+
+    personagem.mover(window_width, window_height)
+
+    window.fill((0, 0, 0))
+
+    pygame.draw.rect(
+        window,
+        (255, 0, 0),
+        (personagem.x, personagem.y, personagem.width, personagem.height),
+    )
+    pygame.display.update()  # mostrar as coisas
+
+pygame.quit()
