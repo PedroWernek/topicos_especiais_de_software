@@ -1,0 +1,9 @@
+id,nome,cargo,departamento,salario
+101,Ana Silva,Engenheira de Software,Tecnologia,8500.00
+102,Bruno Costa,Analista de Sistemas,Tecnologia,6200.50
+103,Carla Souza,Gerente de Produtos,Produto,11000.00
+104,Diego Martins,DevOps Engineer,Infraestrutura,9300.0010,José da Silva,Advogado,1000.0
+10,José da Silva,Advogado,Teste,1000.0
+11,João,Analista,Teste,5000.0
+10,José da Silva,Advogado,Teste,1000.0
+11,João,Analista,5000.0

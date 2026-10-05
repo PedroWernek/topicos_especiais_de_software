@@ -1,0 +1,20 @@
+{
+  "empresa": "TechCorp",
+  "ativa": true,
+  "funcionarios": [
+    {
+      "id": 101,
+      "nome": "Ana Silva",
+      "cargo": "Engenheira de Software",
+      "habilidades": ["Python", "Docker", "PostgreSQL"],
+      "salario": 8500.00
+    },
+    {
+      "id": 102,
+      "nome": "Bruno Costa",
+      "cargo": "Analista de Sistemas",
+      "habilidades": ["Node.js", "MongoDB", "REST APIs"],
+      "salario": 6200.50
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa nome="TechCorp">
+    <departamento nome="Tecnologia">
+        <funcionario id="101">
+            <nome>Ana Silva</nome>
+            <cargo>Engenheira de Software</cargo>
+            <salario>8500.00</salario>
+        </funcionario>
+        <funcionario id="102">
+            <nome>Bruno Costa</nome>
+            <cargo>Analista de Sistemas</cargo>
+            <salario>6200.50</salario>
+        </funcionario>
+    </departamento>
+</empresa>
